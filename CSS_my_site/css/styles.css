@@ -38,20 +38,15 @@ hr{
 }
 
 .top-container{
-}
-
-.background-container{
     background-color: #eaf6f6;
-    height: 730px;
 }
 
 .middle-container{
-    margin: 150px 0 50px;
+    margin: 100px 0 50px;
 }
 
 .landscape{
-    position: relative;
-    bottom: 100px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -129,7 +124,7 @@ a:hover{
     border-radius: 8px;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: bold;
     padding: 10px;
     background-color: #66BFBF;
@@ -159,4 +154,5 @@ a:hover{
     border-radius: 8px;
     text-decoration: none;
     }
+
 
