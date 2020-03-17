@@ -1,4 +1,5 @@
 body{
+    color: #40514e;
     margin:0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -16,7 +17,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    margin-top: 50px;
+    padding-bottom: 10px;
 }
 
 h3{
@@ -24,42 +25,39 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer-link{
-    color: #11999E;
+p{
+    line-height: 2;
+}
+
+hr{
+    color: #eaf6f6;
+    border-bottom: none;
+    border-top: dotted 5px #40514e;
+    margin: 100px auto;
+    width: 5%;
 }
 
 .top-container{
-    margin-bottom: 100px;
 }
 
 .background-container{
-    background-color: red;
-    position: relative;
-    padding-top: 50px;
+    background-color: #eaf6f6;
+    height: 730px;
+}
+
+.middle-container{
+    margin: 150px 0 50px;
 }
 
 .landscape{
     position: relative;
-    bottom: 75px;
+    bottom: 100px;
     width: 100%;
 }
 
 .bottom-container{
    background-color: #66BFBF;
-   margin: 50px 0 0 0;
-   padding: 50px;
-}
-
-.bottom-cloud{
-    position: relative;
-    right: 300px;
-    width: 15%;
-}
-
-.top-cloud{
-    position: relative;
-    left: 200px;
-    width: 15%;
+   padding: 50px 0 20px;
 }
 
 .skill-row{
@@ -68,9 +66,27 @@ h3{
     text-align: left;
 }
 
-p{
-    color: #40514e;
-    line-height: 2;
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top-cloud{
+    position: relative;
+    right: 300px;
+    top: 40px;
+    width: 15%;
+}
+
+.bottom-cloud{
+    position: relative;
+    left: 250px;
+    width: 15%;
 }
 
 .cloudcircle-img{
@@ -85,27 +101,34 @@ p{
     float: right;
 }
 
-hr{
-    color: white;
-    border-top: dotted 5px #40514e;
-    margin-top: 50px;
-    width: 10%;
-}
-
 .profile-img{
     width: 15%;
 }
 
-.footer-text{
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+a:hover{
     color: #eaf6f6;
 }
 
+.footer-text{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
 .btn {
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     color: #FFFFFF;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     padding: 10px;
@@ -120,6 +143,7 @@ hr{
     cursor: pointer;
     text-align: center;
     width: 20%;
+    margin: 50px auto 0px;
     }
     
 .btn:hover {
@@ -130,8 +154,9 @@ hr{
     background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
     background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
     background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     text-decoration: none;
     }
+
