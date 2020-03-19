@@ -1,0 +1,32 @@
+
+body{
+    background-color: #c8dad3;
+}
+
+hr{
+    border-style: none;
+    border-bottom: 5px dotted white;
+    height: 1px;
+    background-color: lightgray;
+    width: 20%;
+}
+
+h1, h3{
+    color: #63bfbf
+}
+
+img:hover{
+    background: yellow;
+}
+
+.cherries{
+    background: blue;
+}
+
+.grapes{
+    background: green;
+}
+
+#heading{
+    color: red;
+}
